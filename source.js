@@ -22,3 +22,11 @@ M.Autocomplete.init(ac, {
         'Cape Verde': null,
     },
 });
+
+// Material-Boxed
+const mb = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(mb, {});
+
+// Scroll Spy
+const ss = querySelectorAll('.scrollspy');
+M.ScrollSpy.init(ss, {});
